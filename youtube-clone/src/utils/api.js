@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 export const request = axios.create({
-  baseURL: 'https://www.googleapis.com/youtube/v3',
+  baseURL: 'youtube.googleapis.com',
   params: {
     key: process.env.REACT_APP_API_KEY,
   },
